@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <deader class="nab_bar">
+        <a href="">
+            <img src="./assets/icons/icon.png" alt="">
+            <h2>Home</h2>
+        </a>
+        <nav class="nab_bar__link_list">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./pages/post.html">Post</a></li>
+                <li><a href="./pages/images.html">Gallery</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="./pages/login.html">Login</a></li>
+            </ul>
+        </nav>
+        
+        <input id="btn_nab_bar__movil"type="checkbox">
+        <nav class="nab_bar__link_list-movil">
+            
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./pages/post.html">Post</a></li>
+                <li><a href="./pages/images.html">Gallery</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="./pages/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </deader>
+    <div class="banner">
+        <div class="banner__img"></div>
+        <div class="user__container">
+            <card-character
+                card-img="./assets/img/character/Yelan.webp"
+                user-name="Yelan"
+                user-location="Liyue">
+            </card-character>
+            <card-character
+                card-img="./assets/img/character/hu-tao.jpg"
+                user-name="Hu-tao"
+                user-location="Liyue">
+            </card-character>
+            <card-character 
+                card-img="./assets/img/character/Albedo.jpg" 
+                user-name="Albedo" 
+                user-location="Monsdat">
+            </card-character>
+            <card-character 
+                card-img="./assets/img/character/klee.jpg" 
+                user-name="Klee" 
+                user-location="Monsdat">
+            </card-character>
+            <card-character 
+                card-img="./assets/img/character/nahida.webp" 
+                user-name="Nahida" 
+                user-location="Sumeru">
+            </card-character>
+            
+        </div>
+    </div>
+
+    <section class="stand__container">
+        <div class="stand">
+            <div class="stand__text">
+                <h3>Share you experince</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusamus blanditiis officia odit doloremque rerum ducimus quasi, dolorem, commodi pariatur doloribus expedita quidem perspiciatis ut.</p>
+            </div>
+            <div class="stand__post">
+                <post-card 
+                    user-icon="./assets/img/character/hu-tao.jpg" 
+                    user-name="Hu-tao" 
+                    user-location="Liyue"
+                    post-img="./assets/img/post/post-home.jpg">
+                </post-card>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+    
+
+    
+    <script src="./components/Post.js"></script>
+    <script src="./components/Card.js"></script>
+    <script src="./components/Button.js"></script>
+</body>
+</html>
